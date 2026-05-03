@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan Ettahiri | Portfolio</title>
+    <meta name="description" content="Portfolio de Rayan Ettahiri, Étudiant Ingénieur en Informatique">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">RE<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero section">
+            <div class="hero-content fade-in">
+                <p class="greeting">Bonjour, je suis</p>
+                <h1 class="name">Rayan Ettahiri</h1>
+                <h2 class="title">Étudiant Ingénieur <span class="highlight">en Informatique</span></h2>
+                <p class="subtitle">Passionné par le développement logiciel et la data. Recherche de stage de fin d'année.</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>Voir mes projets</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Me contacter</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-graphic fade-in delay-1">
+                <div class="abstract-shape">
+                    <div class="shape-inner">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="orbit orbit-1"><div class="planet"></div></div>
+                    <div class="orbit orbit-2"><div class="planet"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <h2 class="section-title fade-in">Profil & Formation</h2>
+            <div class="about-grid">
+                <div class="card glass fade-in">
+                    <div class="card-header">
+                        <div class="icon-box"><i class="fa-solid fa-user"></i></div>
+                        <h3>Profil</h3>
+                    </div>
+                    <p>Étudiant en 3ème année d'ingénierie informatique à l'EMSI Casablanca, passionné par le développement logiciel et la data. Je cherche un stage d'1 mois en juin 2025 pour mettre en pratique mes compétences sur des projets concrets et contribuer activement à votre équipe.</p>
+                    <div class="availability badge">
+                        <i class="fa-regular fa-calendar-check"></i>
+                        <span>Stage de <strong>1 mois</strong> — Juin 2025 | Casablanca & Télétravail</span>
+                    </div>
+                </div>
+                <div class="card glass fade-in delay-1">
+                    <div class="card-header">
+                        <div class="icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3>Formation</h3>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Cycle Ingénieur — Informatique</h4>
+                                <h5>EMSI — École Marocaine des Sciences de l'Ingénieur</h5>
+                                <span class="date">2022 – 2027 | Casablanca, Maroc</span>
+                                <div class="tags">
+                                    <span>Algorithmes & Structures de données</span>
+                                    <span>POO</span>
+                                    <span>Bases de données</span>
+                                    <span>Réseaux</span>
+                                    <span>Génie Logiciel</span>
+                                    <span>IA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <h2 class="section-title fade-in">Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass fade-in">
+                    <h3>Langages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag advanced">Python / Django</span>
+                        <span class="skill-tag advanced">JavaScript</span>
+                        <span class="skill-tag advanced">SQL (PL/SQL - T-SQL)</span>
+                        <span class="skill-tag intermediate">PHP</span>
+                        <span class="skill-tag intermediate">Java</span>
+                        <span class="skill-tag intermediate">C / C++</span>
+                    </div>
+                </div>
+                <div class="skill-category glass fade-in delay-1">
+                    <h3>Front-end</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag advanced">HTML / CSS</span>
+                        <span class="skill-tag advanced">React.js</span>
+                        <span class="skill-tag intermediate">Tkinter</span>
+                    </div>
+                </div>
+                <div class="skill-category glass fade-in delay-2">
+                    <h3>Autres Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag advanced">Node.js</span>
+                        <span class="skill-tag advanced">Git / GitHub</span>
+                        <span class="skill-tag intermediate">Machine Learning</span>
+                    </div>
+                </div>
+                <div class="skill-category glass fade-in delay-3">
+                    <h3>Soft Skills</h3>
+                    <ul class="soft-skills-list">
+                        <li><i class="fa-solid fa-check text-accent"></i> Travail en équipe</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> Esprit analytique</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> Prise d'initiative</li>
+                        <li><i class="fa-solid fa-check text-accent"></i> Communication</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Projets Académiques</h2>
+                <p>Une sélection de mes récents projets. <span class="highlight">Gérés dynamiquement via JavaScript.</span></p>
+            </div>
+            
+            <!-- JavaScript va injecter les cartes projets ici -->
+            <div id="projects-container" class="projects-grid">
+                <!-- Les projets seront rendus ici -->
+            </div>
+        </section>
+
+        <section id="extras" class="extras section">
+            <div class="extras-grid">
+                <div class="card glass certifications fade-in">
+                    <div class="card-header">
+                        <div class="icon-box"><i class="fa-solid fa-certificate"></i></div>
+                        <h2 class="section-title-sm">Certifications</h2>
+                    </div>
+                    <ul class="cert-list">
+                        <li>
+                            <div class="cert-info">
+                                <h4>Introduction à la POO (C++)</h4>
+                                <p>EPFL — Coursera</p>
+                            </div>
+                            <span class="date badge">Jan. 2026</span>
+                        </li>
+                        <li>
+                            <div class="cert-info">
+                                <h4>Introduction to Public Speaking</h4>
+                                <p>Univ. of Washington — Coursera</p>
+                            </div>
+                            <span class="date badge">Jan. 2025</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card glass languages fade-in delay-1">
+                    <div class="card-header">
+                        <div class="icon-box"><i class="fa-solid fa-language"></i></div>
+                        <h2 class="section-title-sm">Langues</h2>
+                    </div>
+                    <div class="lang-list">
+                        <div class="lang-item">
+                            <div class="lang-label">
+                                <span>Arabe</span>
+                                <span>Bilingue</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 100%;"></div></div>
+                        </div>
+                        <div class="lang-item">
+                            <div class="lang-label">
+                                <span>Anglais</span>
+                                <span>Courant</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="lang-item">
+                            <div class="lang-label">
+                                <span>Français</span>
+                                <span>Courant</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer fade-in">
+        <div class="footer-content glass">
+            <h2>Prêt à collaborer ?</h2>
+            <p>N'hésitez pas à me contacter pour toute opportunité de stage.</p>
+            <div class="contact-links">
+                <a href="mailto:ettahirirayan1@gmail.com" class="contact-item hover-lift">
+                    <div class="icon-box-sm"><i class="fa-solid fa-envelope"></i></div>
+                    <span>ettahirirayan1@gmail.com</span>
+                </a>
+                <a href="tel:0609477099" class="contact-item hover-lift">
+                    <div class="icon-box-sm"><i class="fa-solid fa-phone"></i></div>
+                    <span>0609 477 099</span>
+                </a>
+                <a href="https://linkedin.com/in/rayan-ettahiri" target="_blank" class="contact-item hover-lift">
+                    <div class="icon-box-sm"><i class="fa-brands fa-linkedin"></i></div>
+                    <span>/in/rayan-ettahiri</span>
+                </a>
+                <a href="https://github.com/rayan-eth" target="_blank" class="contact-item hover-lift">
+                    <div class="icon-box-sm"><i class="fa-brands fa-github"></i></div>
+                    <span>github.com/rayan-eth</span>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Rayan Ettahiri. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
